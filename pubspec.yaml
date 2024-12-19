@@ -1,35 +1,50 @@
+# pubspec.yaml - Documentation
+#
+# This file defines the dependencies, environment constraints, and configuration settings
+# for the "awesome_todo_app". The app is a basic to-do management application
+# utilizing Riverpod for state management and local storage for data persistence.
+
 name: awesome_todo_app
 description: A basic todo app using Riverpod and Local Storage.
-publish_to: 'none'
-version: 1.0.0+1
+publish_to: 'none' # This app is not published to any public package repository.
+version: 1.0.0+1 # Versioning format: Major.Minor.Patch+BuildNumber.
 
+# SDK Constraints
+# Specifies the Dart SDK version required to run the app.
 environment:
   sdk: '>=3.0.3 <4.0.0'
 
+# Runtime Dependencies
+# These are the libraries and tools required by the app at runtime.
 dependencies:
   flutter:
-    sdk: flutter
-  
-  cupertino_icons: ^1.0.8
-  flutter_riverpod: ^2.5.1
-  riverpod_annotation: ^2.3.5
-  hooks_riverpod: ^2.1.1
-  flutter_hooks: ^0.18.5+1
-  uuid: ^3.0.6
-  http: ^0.13.5
-  drift: ^2.22.1
-  drift_flutter: ^0.2.2
+    sdk: flutter # Core Flutter SDK for building cross-platform UIs.
+  flutter_localizations:
+    sdk: flutter # Enables support for internationalization (i18n).
+  intl: ^0.19.0 # Provides utilities for handling dates, numbers, and text formatting.
 
+  cupertino_icons: ^1.0.8 # Icons for iOS-styled widgets.
+  flutter_riverpod: ^2.5.1 # Main state management solution for the app.
+  riverpod_annotation: ^2.3.5 # Supports generating boilerplate for Riverpod providers.
+  hooks_riverpod: ^2.1.1 # Combines Riverpod and Flutter Hooks for reactive UI logic.
+  flutter_hooks: ^0.18.5+1 # Enables hooks to manage widget lifecycle state efficiently.
+  uuid: ^3.0.6 # Library for generating unique identifiers (UUIDs).
+  http: ^0.13.5 # Provides HTTP client for making RESTful API calls.
+  drift: ^2.22.1 # Local SQL-based database ORM for data storage and queries.
+  drift_flutter: ^0.2.2 # Integrates Drift ORM with Flutter for SQLite database management.
+
+# Development Dependencies
+# These tools and libraries are used during development and testing.
 dev_dependencies:
   flutter_test:
-    sdk: flutter
+    sdk: flutter # Provides testing utilities for Flutter applications.
+  flutter_lints: ^2.0.0 # Enforces best practices and coding standards in Dart.
+  mockito: ^5.3.2 # Framework for creating mock objects in unit tests.
+  riverpod_generator: ^2.3.11 # Code generator for Riverpod providers.
+  drift_dev: ^2.22.0 # Development tools for Drift ORM.
+  build_runner: ^2.4.13 # A build system for generating code, like Riverpod and Drift files.
 
-  flutter_lints: ^2.0.0
-  mockito: ^5.3.2
-  riverpod_generator: ^2.3.11
-  drift_dev: ^2.22.0
-  build_runner: ^2.4.13
-
+# Flutter-specific Configuration
 flutter:
-
-  uses-material-design: true
+  generate: true # Enables code generation for custom assets or configurations.
+  uses-material-design: true # Opt-in to Material Design iconography.

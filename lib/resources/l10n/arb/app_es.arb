@@ -1,0 +1,21 @@
+{
+  "@@locale": "es",
+  "hello": "Hola",
+  "couldntMakeLocalDatabaseRequest": "No se pudo realizar la solicitud a la base de datos local.",
+  "whatDoWeNeedToDo": "¿Qué necesitamos hacer?",
+  "xToDosStillToBeDone": "{count, plural, one{1 Tarea} other{{count} Tareas}} aún por hacer",
+  "noToDosYetCreateOneToGetStarted": "Aún no hay tareas. ¡Crea una para empezar!",
+  "allToDosAreCompletedGreatJob": "¡Todas las tareas están completadas! ¡Buen trabajo!",
+  "noCompletedToDosYetStartMarkingThemOff": "Aún no hay tareas completadas. ¡Comienza a marcarlas!",
+  "edit": "Editar",
+  "delete": "Eliminar",
+  "editTodo": "Editar tarea",
+  "enterTaskDetails": "Ingresar detalles de la tarea",
+  "cancel": "Cancelar",
+  "save": "Guardar",
+  "confirmDelete": "Confirmar eliminación",
+  "areYouSureYouWantToDeleteThisTodoThisActionCannotBeUndone": "¿Estás seguro de que deseas eliminar esta tarea? Esta acción no se puede deshacer.",
+  "all": "Todos",
+  "active": "Activo",
+  "completed": "Completado"
+}

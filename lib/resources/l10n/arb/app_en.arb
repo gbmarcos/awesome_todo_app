@@ -1,0 +1,27 @@
+{
+  "@@locale": "en",
+  "hello": "Hello",
+  "couldntMakeLocalDatabaseRequest": "Couldn't make Local database request.",
+  "whatDoWeNeedToDo": "What do we need to do?",
+  "xToDosStillToBeDone": "{count, plural, one{1 To-Do} other{{count} To-Dos}} still to be done",
+  "@xToDosStillToBeDone": {
+    "description": "to-dos lest",
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "noToDosYetCreateOneToGetStarted": "No to-dos yet. Create one to get started!",
+  "allToDosAreCompletedGreatJob": "All to-dos are completed! Great job!",
+  "noCompletedToDosYetStartMarkingThemOff": "No completed to-dos yet. Start marking them off!",
+  "edit": "Edit",
+  "delete": "Delete",
+  "editTodo": "Edit To-Do",
+  "enterTaskDetails": "Enter task details",
+  "cancel": "Cancel",
+  "save": "Save",
+  "confirmDelete": "Confirm Delete",
+  "areYouSureYouWantToDeleteThisTodoThisActionCannotBeUndone": "Are you sure you want to delete this to-do? This action cannot be undone.",
+  "all": "All",
+  "active": "Active",
+  "completed": "Completed"
+}
