@@ -30,3 +30,8 @@ buil_apk_relese:
 assemble_debug: ## download debug android dependencies
 	@echo "╠ Downloading debug android dependencies..."
 	@(cd android && ./gradlew assembleDebug)
+
+
+assemble_release: ## download debug android dependencies
+	@echo "╠ Downloading release android dependencies..."
+	@(cd android && ./gradlew assembleRelease)

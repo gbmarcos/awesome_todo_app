@@ -43,6 +43,12 @@ dev_dependencies:
   riverpod_generator: ^2.3.11 # Code generator for Riverpod providers.
   drift_dev: ^2.22.0 # Development tools for Drift ORM.
   build_runner: ^2.4.13 # A build system for generating code, like Riverpod and Drift files.
+  flutter_launcher_icons: ^0.14.2
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  image_path: "assets/app_icon.png"
+  min_sdk_android: 21
 
 # Flutter-specific Configuration
 flutter:
